@@ -5,4 +5,26 @@
     min-height: 90vh;
     margin-bottom: 0;
   }
+
+  .btn-login{
+    min-width: 88px;
+  }
+
+  .logo-form{
+    width: 78px;
+    height: 78px;
+  }
+
+  .title-form{
+    margin-left: -15px;
+  }
+
+  @media(min-width: 767px){
+    .big-screen{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: #fff;
+      padding: 50px;
+      border-radius: 8px;
+    }
+  }
 }

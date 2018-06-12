@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    redirect_to new_user_session_path
+    redirect_to new_user_session_path if !current_user.present?
   end
 end
