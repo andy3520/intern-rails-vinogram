@@ -55,6 +55,8 @@ gem 'paperclip-av-transcoder', '0.6.4'
 
 gem 'paperclip-optimizer','2.0.0'
 
+gem 'simple_form'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
